@@ -46,7 +46,7 @@ def scrape_term(url, term)
     }
     %i(photo source).each { |i| data[i] = URI.join(url, URI.encode(data[i])).to_s unless data[i].to_s.empty? }
     data = data.merge(scrape_person(data[:source]))
-    puts data
+    # puts data
     ScraperWiki.save_sqlite([:id, :term], data)
   end
   
