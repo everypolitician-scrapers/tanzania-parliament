@@ -65,4 +65,4 @@ end
 
 
 url = 'http://www.parliament.go.tz/mps-list'
-scrape_term(url, 6)
+scrape_term(url, 5)
