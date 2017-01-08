@@ -1,0 +1,42 @@
+---
+request:
+  method: get
+  uri: http://www.parliament.go.tz/administrations/482
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Sun, 08 Jan 2017 09:41:55 GMT
+    Server:
+    - Apache
+    X-Frame-Options:
+    - DENY
+    Cache-Control:
+    - no-cache
+    Set-Cookie:
+    - XSRF-TOKEN=eyJpdiI6IjF3OUFWc3c2UFIwVXE5VkgxSmkrS2c9PSIsInZhbHVlIjoiRkFGZlFCbDhZRVdUQTdpSUwrakxFZXJpaXRnMGpQZEQyd0d3Tko3cWpxXC9yWU9zcU56WmJ5RjRVTE56eXFQRWp3RjZXMXk4T0JBRVZDWnV5MDZycEZRPT0iLCJtYWMiOiJiYzE3MjUxNjliMDQzNDEwNWNiNDQzMjgzOWE2Mjc0OGY5N2VjY2U1MWQyZTVjZWMxMzA4YmZlODUyMTE2M2U1In0%3D;
+      expires=Sun, 08-Jan-2017 11:41:57 GMT; Max-Age=7200; path=/
+    - laravel_session=eyJpdiI6IlwvdEJjdkZkY0I3SWx3TGFwV1wvUVwvRXc9PSIsInZhbHVlIjoiNndURzVINnZyd1laQ0hLVXVNMHJOWFNlaEs4bVJ1T3FkQ01ZUW1XUTZaOFlXQTd0N3dTbzc1dEgyc3dqcFlteEZjWFFwYjFsTnVOVlBBb3AwNkNVYUE9PSIsIm1hYyI6IjA3Njk4MGU3NmI5OTc4ZjA1Yjc4N2ExMzE4MzBiMjdiNTdjODA5OWQ3NDUyYzRmM2QzZDk0NTA4ZWUzYjlkZGUifQ%3D%3D;
+      expires=Sun, 08-Jan-2017 11:41:57 GMT; Max-Age=7200; path=/; httponly
+    Connection:
+    - close
+    Transfer-Encoding:
+    - chunked
+    Content-Type:
+    - text/html; charset=UTF-8
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Sun, 08 Jan 2017 09:37:52 GMT
