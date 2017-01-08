@@ -1,0 +1,42 @@
+---
+request:
+  method: get
+  uri: http://www.parliament.go.tz/administrations/446
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Sun, 08 Jan 2017 09:46:14 GMT
+    Server:
+    - Apache
+    X-Frame-Options:
+    - DENY
+    Cache-Control:
+    - no-cache
+    Set-Cookie:
+    - XSRF-TOKEN=eyJpdiI6IkwzR1AwWGRpTUhENWlcL21WczRRamFnPT0iLCJ2YWx1ZSI6IkR5VldodDFJTnRJMkRYRjZpTDZaenlHY2tpZmkyTXdVQ3YwUmZQazFybzYyYnRRYVg1YWt1M3ZFczlOR0g5dDBoUkYxdFIrNTN6MzR6RWFYXC9CaEVBdz09IiwibWFjIjoiNzI0MjYwNzM2ZjM3NmVkNzgyZmE4ZGIzNjNiOGM5YjE1YWNjYmQyMzNhZjIzNGM3ZmY5YjQyYzYxMTY4ODFkYyJ9;
+      expires=Sun, 08-Jan-2017 11:46:16 GMT; Max-Age=7200; path=/
+    - laravel_session=eyJpdiI6IkpFYkg5SFhHRVh1N20rT3grY0tYeGc9PSIsInZhbHVlIjoiSHVxMkN4R3BlYjVvY3NRT1d5MjE0UDNSd1NKZDJFZHpkV0I4Ym1wNnJYQ0k4NEZrVVwvSWpUTW1EVzlBZVk1b2NkUjBLZXphc1F0XC9TN0Q0NFlrcUk0QT09IiwibWFjIjoiYWQzZWFiMGVhODEyY2IwOTIzZmQxNTlmNTA2MjUxZDZiZThlOWQyYmE1ZmFlZWJkZThjOTgxMjY3NDg0YzE5OCJ9;
+      expires=Sun, 08-Jan-2017 11:46:16 GMT; Max-Age=7200; path=/; httponly
+    Connection:
+    - close
+    Transfer-Encoding:
+    - chunked
+    Content-Type:
+    - text/html; charset=UTF-8
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Sun, 08 Jan 2017 09:42:11 GMT
