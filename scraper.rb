@@ -1,25 +1,17 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-require 'scraperwiki'
-require 'nokogiri'
 require 'date'
 require 'pry'
+require 'scraped'
+require 'scraperwiki'
 
 require 'open-uri/cached'
 OpenURI::Cache.cache_path = '.cache'
 
 @BASE = 'http://www.parliament.go.tz'
 
-class String
-  def tidy
-    self.gsub(/[[:space:]]+/, ' ').strip
-  end
-end
-
 def noko(url)
-  # url.prepend @BASE unle# ss url.start_with? 'http:'
-  # warn "Getting #{url}"
   Nokogiri::HTML(open(url).read) 
 end
 
