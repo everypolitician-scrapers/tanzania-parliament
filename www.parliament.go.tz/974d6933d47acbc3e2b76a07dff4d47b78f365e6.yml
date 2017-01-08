@@ -1,0 +1,42 @@
+---
+request:
+  method: get
+  uri: http://www.parliament.go.tz/mps-list
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Sun, 08 Jan 2017 09:07:57 GMT
+    Server:
+    - Apache
+    X-Frame-Options:
+    - DENY
+    Cache-Control:
+    - no-cache
+    Set-Cookie:
+    - XSRF-TOKEN=eyJpdiI6IjFuclc1aUVIdVJacVMzVHc2SVZLK1E9PSIsInZhbHVlIjoidkI2R1wvNyt0bVZKQTJlU1dtbGxcLzJodHdkSEdPXC9tM2Y4bGs4bnlxUnA1TWVPb2NTSWUwZjNhd0JaN054S2JGVmQ3dTdaZ2pjUXdwcktJWDhHWDYxZnc9PSIsIm1hYyI6ImI3NTQwZWI5YWYxODU3OTJiMGFlNjIyMzQ3ZmU5YjhlMGM4ZjQ1MWI5MmU2MDFkY2ExYmFhMmNlYjk0ZDY4NGEifQ%3D%3D;
+      expires=Sun, 08-Jan-2017 11:07:59 GMT; Max-Age=7199; path=/
+    - laravel_session=eyJpdiI6ImsyV295S2orSFwvRktUaEdJa0NTUm9RPT0iLCJ2YWx1ZSI6Ijk0Tm1ac2NiNThCYzB4NVZLVDdzejZsMmpzTGNUS2JOaEtpVVZleHZcL2JSXC9DaXJudUxVVG5SSmxTNWtDWjdwS0VyditpWE9OcDQ5N1g5R1orXC9VXC9Vdz09IiwibWFjIjoiNzA3N2MwOGI5ZWNlNmE2ZWIxNDZhMzUxZWI4MzA2MGYzMzc3NzM0YmYwNTA2MGJkMzQ1ZTY3ZTUyYWJiNjgxMyJ9;
+      expires=Sun, 08-Jan-2017 11:08:00 GMT; Max-Age=7200; path=/; httponly
+    Connection:
+    - close
+    Transfer-Encoding:
+    - chunked
+    Content-Type:
+    - text/html; charset=UTF-8
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Sun, 08 Jan 2017 09:03:56 GMT
