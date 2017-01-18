@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Wed, 18 Jan 2017 12:30:22 GMT
+    - Wed, 18 Jan 2017 17:00:54 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,17 +26,17 @@ response:
     Cache-Control:
     - no-cache
     Set-Cookie:
-    - XSRF-TOKEN=eyJpdiI6IlRPbzhOWkQyK1BkQkNSTzVjWEhiY2c9PSIsInZhbHVlIjoiK1RtWjUrOW9JWjdTV0tVeTYrTjlnN0FwbWppdDV6UFgweTQzaTBGaDdTcG5RNFFjam1PM2QwcEU2WjVhbm8zSDRXVkdMYlwvcFE0dUlRZmZJY28yV1wvZz09IiwibWFjIjoiZTdiZDAxZTA5NzBkYTUzZTU0NmY1NDQ4ZWQwOTc2NDc5NzUxNTE1MWE1ZTcxZjgyNWYwMTUxYTcxNzFlNjA4NiJ9;
-      expires=Wed, 18-Jan-2017 14:30:24 GMT; Max-Age=7200; path=/
-    - laravel_session=eyJpdiI6IlRcL2hmR3h6WjZ2Z0l5ejhlTmpZalJ3PT0iLCJ2YWx1ZSI6InRTemYyUlQzNHo4MUtpckJDU3pqOG12d2FlQkZwYXB6ODdGZytlVG13QmM1SEc4bXhtVmNXMTFIZ3M1MzlwWTZCTzYrcEk4eWgwXC82MnpmbHd1VXRyUT09IiwibWFjIjoiNGRhY2U1ZDFmZGU3MTZjNTA5YTc5ZGE3YjE4MWJiOTI3YjM3ZTViN2VhOGUzM2Q0OWU0N2I5NzZmNWI2NDZmYSJ9;
-      expires=Wed, 18-Jan-2017 14:30:24 GMT; Max-Age=7200; path=/; httponly
+    - XSRF-TOKEN=eyJpdiI6IkVURjEyaWtiOFZXVTJaU3JtdUdoT1E9PSIsInZhbHVlIjoiK3YyMkFMaDhHaWxtQlNqSEdqZmJINllaWnErYU5xWmlWQnlFUEdKaUtMRlJhTkM5dys1RUtKVnozTms5TXJoTGwxYlVzRVc5OVwvamJmZUJnc1NrSmZ3PT0iLCJtYWMiOiI2YzEyMzkyNjU1ODY3YjIzMDY1ZThjMDI2M2M1YTA5NGE5NzA0ZmEyNDg3YjcxY2RlZGVjNTA3YzU3OTMwMzA3In0%3D;
+      expires=Wed, 18-Jan-2017 19:00:57 GMT; Max-Age=7200; path=/
+    - laravel_session=eyJpdiI6ImN6c0x0YmVvQWhEUWlPaFNJRU9PcVE9PSIsInZhbHVlIjoiQndJK3liXC9kSWxwT1Z1Yk4wOEJKczNESFhQNjNNa0hCYzFqMVU2R1IybUFLZFlFNUdtRUxJR0QxTEcrVkdKeVwvdGk2K3RwcWs1WGR5ZERxb0lhVkZJdz09IiwibWFjIjoiNjc0NTM0MjdjZTJiNWY4YmEzZDliZmUzOTkwMWUzNTIwMGE4NjQyZDFjOTk1ODk0MjYwNDU4M2EzOGZiZjI3MiJ9;
+      expires=Wed, 18-Jan-2017 19:00:57 GMT; Max-Age=7200; path=/; httponly
     Connection:
     - close
-    Transfer-Encoding:
-    - chunked
     Content-Type:
     - text/html; charset=UTF-8
+    Content-Length:
+    - '25929'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 18 Jan 2017 12:26:09 GMT
+recorded_at: Wed, 18 Jan 2017 16:56:42 GMT
