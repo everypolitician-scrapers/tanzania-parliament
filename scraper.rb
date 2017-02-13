@@ -2,11 +2,10 @@
 # encoding: utf-8
 # frozen_string_literal: true
 
-require 'date'
 require 'pry'
+require 'require_all'
 require 'scraped'
 require 'scraperwiki'
-require 'require_all'
 
 require_rel 'lib'
 
