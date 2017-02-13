@@ -31,27 +31,14 @@ def scrape(h)
 end
 
 def scrape_term(url, term)
-  page = noko(url)
-  page.css('table#example tbody tr').each do |mem|
-    tds = mem.css('td')
-    link = tds[1].css('a/@href').text
-    data = {
-      id:          link.split('/').last,
-      photo:       tds[0].css('img/@src').text,
-      name:        tds[1].text.strip.sub(/^Hon.? /, ''),
-      area:        tds[2].text.strip,
-      party:       tds[3].text.strip,
-      member_type: tds[4].text.strip,
-      term:        term,
-      source:      link,
-    }
-    %i(photo source).each { |i| data[i] = URI.join(url, URI.encode(data[i])).to_s unless data[i].to_s.empty? }
-    data = data.merge((scrape data[:source] => MemberPage).to_h)
+  page = scrape url => MembersPage
+  page.member_rows.each do |mem|
+    data = mem.to_h.merge((scrape mem.source => MemberPage).to_h).merge(term: term)
     ScraperWiki.save_sqlite(%i(id term), data)
     # puts data.reject { |k, v| v.to_s.empty? }.sort_by { |k, v| k }.to_h
   end
 
-  next_pg = page.css('div#pagination').xpath('//a[text()=">"]/@href').text
+  next_pg = page.next
   scrape_term(next_pg, term) unless next_pg.to_s.empty?
 end
 
