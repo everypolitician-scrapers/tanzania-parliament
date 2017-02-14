@@ -12,7 +12,7 @@ class MemberRow < Scraped::HTML
   end
 
   field :name do
-    noko[1].text.strip.sub(/^Hon.? /, '')
+    name_parts.reject { |p| prefixes.include? p }.join(' ').tidy
   end
 
   field :area do
@@ -32,6 +32,22 @@ class MemberRow < Scraped::HTML
   end
 
   private
+
+  def wanted_prefixes
+    %w(Prof.)
+  end
+
+  def unwanted_prefixes
+    %w(Hon.)
+  end
+
+  def prefixes
+    wanted_prefixes + unwanted_prefixes
+  end
+
+  def name_parts
+    noko[1].text.tidy.split(' ')
+  end
 
   def link
     noko[1].css('a/@href').text
