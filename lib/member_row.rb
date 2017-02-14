@@ -15,6 +15,10 @@ class MemberRow < Scraped::HTML
     name_parts.reject { |p| prefixes.include? p }.join(' ').tidy
   end
 
+  field :honorific_prefix do
+    name_parts.select { |p| wanted_prefixes.include? p }.map(&:tidy).join(';')
+  end
+
   field :area do
     noko[2].text.strip
   end
