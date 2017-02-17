@@ -27,7 +27,7 @@ describe 'MemberRow' do
 
   describe 'console output' do
     it 'should not warn of URI.escape obsolescence' do
-      proc { puts subject[:photo] }.must_be_silent
+      proc { subject[:photo] }.must_be_silent
     end
   end
 end
