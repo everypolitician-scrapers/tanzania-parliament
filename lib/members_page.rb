@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 require 'scraped'
+require_relative 'member_row'
 
 class MembersPage < Scraped::HTML
   field :member_rows do
