@@ -6,14 +6,14 @@ describe 'MemberRow' do
   around { |test| VCR.use_cassette(url.split('/').last, &test) }
 
   subject do
-    MembersPage.new(response: Scraped::Request.new(url: url).response)
+    MembersPage.new(response: Scraped::Request.new(url: url).response).member_rows.first.to_h
   end
 
-  describe 'member row data' do
-    let(:url) { 'http://www.parliament.go.tz/mps-list' }
+  let(:url) { 'http://www.parliament.go.tz/mps-list' }
 
+  describe 'member row data' do
     it 'should have the expected data' do
-      subject.member_rows.first.to_h.must_equal(
+      subject.must_equal(
         id:          '458',
         photo:       'http://parliament.go.tz/polis/uploads/members/0.57945900%201485964592.png',
         name:        'Abbas Ali Mwinyi',
@@ -22,6 +22,12 @@ describe 'MemberRow' do
         member_type: 'Constituent Member',
         source:      'http://www.parliament.go.tz/administrations/458'
       )
+    end
+  end
+
+  describe 'console output' do
+    it 'should not warn of URI.escape obsolescence' do
+      proc { puts subject[:photo] }.must_be_silent
     end
   end
 end
