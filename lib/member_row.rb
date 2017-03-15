@@ -8,7 +8,7 @@ class MemberRow < Scraped::HTML
   end
 
   field :photo do
-    URI.encode(noko[0].css('img/@src').text)
+    noko[0].css('img/@src').text
   end
 
   field :name do

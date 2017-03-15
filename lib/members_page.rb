@@ -3,6 +3,8 @@
 require 'scraped'
 
 class MembersPage < Scraped::HTML
+  decorator Scraped::Response::Decorator::CleanUrls
+
   field :member_rows do
     noko.css('table#example tbody tr').map do |mem|
       fragment mem.css('td') => MemberRow
