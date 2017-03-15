@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'scraped'
+require_relative 'member_row'
 
 class MembersPage < Scraped::HTML
   decorator Scraped::Response::Decorator::CleanUrls
