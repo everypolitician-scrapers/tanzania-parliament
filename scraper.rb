@@ -31,5 +31,5 @@ def scrape_term(url, term)
 end
 
 url = 'http://www.parliament.go.tz/mps-list'
-ScraperWiki.sqliteexecute('DELETE FROM data') rescue nil
+ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
 scrape_term(url, 5)
