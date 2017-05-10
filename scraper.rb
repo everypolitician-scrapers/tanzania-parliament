@@ -23,7 +23,7 @@ def scrape_term(url, term)
   page.member_rows.each do |mem|
     data = mem.to_h.merge((scrape mem.source => MemberPage).to_h).merge(term: term)
     ScraperWiki.save_sqlite(%i[id term], data)
-    # puts data.reject { |k, v| v.to_s.empty? }.sort_by { |k, v| k }.to_h
+    puts data.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h if ENV['MORPH_DEBUG']
   end
 
   next_pg = page.next
