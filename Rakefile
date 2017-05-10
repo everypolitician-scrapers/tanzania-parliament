@@ -13,4 +13,4 @@ Rake::TestTask.new do |t|
 end
 
 task test: 'test:data'
-task default: %w(rubocop test)
+task default: %w[rubocop test]

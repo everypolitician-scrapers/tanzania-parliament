@@ -22,7 +22,7 @@ def scrape_term(url, term)
   page = scrape url => MembersPage
   page.member_rows.each do |mem|
     data = mem.to_h.merge((scrape mem.source => MemberPage).to_h).merge(term: term)
-    ScraperWiki.save_sqlite(%i(id term), data)
+    ScraperWiki.save_sqlite(%i[id term], data)
     # puts data.reject { |k, v| v.to_s.empty? }.sort_by { |k, v| k }.to_h
   end
 
