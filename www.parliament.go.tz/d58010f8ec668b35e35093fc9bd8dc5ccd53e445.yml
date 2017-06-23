@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Thu, 22 Jun 2017 06:15:54 GMT
+    - Fri, 23 Jun 2017 08:33:33 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,10 +26,10 @@ response:
     Cache-Control:
     - no-cache
     Set-Cookie:
-    - XSRF-TOKEN=eyJpdiI6IkZ4U01NWlwvbnJNNHIrUGFYb0t4UGtnPT0iLCJ2YWx1ZSI6ImRwNjBUakZpVit3RUw3TDVnYTRvaHFaN3d5VEhlXC93azJkeVk3U1lqQTNrMmNvRk5PWEFOMTF6SVhnVWJkXC9ZUGIrQW5nYWFQMFV2dFJ4NUswYmZPbHc9PSIsIm1hYyI6IjViMGE4OWRiYjRkYjYyNTdkYzU0MmIxOTg0MGFlMDc1ZDk3YTY3Nzc0N2QyNTZiNmNmMzMyZGUzNGFhNGM2YWUifQ%3D%3D;
-      expires=Thu, 22-Jun-2017 08:15:57 GMT; Max-Age=7200; path=/
-    - laravel_session=eyJpdiI6IjBRYnIzTFpFejk1M1pkVXltQkxsZUE9PSIsInZhbHVlIjoiZkVHVmVcL0Jid3AwUVhmVTNub2tGMHA3OVVJY3Rnd1NkWU02WFNpMUwrQTBoSDBrSU8xZnoxd1c4V09FYzV0TjhyaFN0UkZhbFV6S21jalorMDZnc013PT0iLCJtYWMiOiJjMjc1MDRjN2I1NjJkNGJhNTNjODM3MDI0M2M1YjVlYTE2ODQ1MGQ3ZGNjNTUzYWRhM2I0ZWM5MGY5MWE1OGIxIn0%3D;
-      expires=Thu, 22-Jun-2017 08:15:57 GMT; Max-Age=7200; path=/; httponly
+    - XSRF-TOKEN=eyJpdiI6InFrdzVabjVDUlp2ZEx6ZnZ6dGxcL1NBPT0iLCJ2YWx1ZSI6IjJCN0txeG02akFJZjFLUVJtMUVVZ01iYnJaTTZkMEhcL25NSkRFYVVkZ0JzUXlTeng4dnUzRTdxeFVmOFBCeTczWkIzSGtXVWFsQTVmR3dJTk1pTXpXdz09IiwibWFjIjoiNzVlZDdkY2JjZTEyZjFkZmEzNTJhMWE3NmRkOTdhMmFlZDlmNDZlNTVjZjgxNmUwY2JhZjFiMzA5MmEzOTY2MCJ9;
+      expires=Fri, 23-Jun-2017 10:33:36 GMT; Max-Age=7199; path=/
+    - laravel_session=eyJpdiI6ImJwdXhxd3NPaEhYQXBKUURSNzlWQXc9PSIsInZhbHVlIjoiWlhIZjg1UVwvTkdmek1JMVVxdkNldFc5VVAySDNJYk5kMFNQZStIVDJPcnNDdUpkZTBNdDE4ZGtzakNkc0dhWnc4eVFITEJyb3BZZHpwRW1udkJtY2xRPT0iLCJtYWMiOiI4YmZhYmVkMjY4N2ZiNDQ0ZGYyNTIwNmRjYzNjZWY3YjBhMDkxNTc5YzJiNjk1NTU4OWI1OGMzOTNlOGM2MDY4In0%3D;
+      expires=Fri, 23-Jun-2017 10:33:37 GMT; Max-Age=7200; path=/; httponly
     Connection:
     - close
     Transfer-Encoding:
@@ -39,4 +39,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 22 Jun 2017 06:15:29 GMT
+recorded_at: Fri, 23 Jun 2017 08:33:08 GMT
