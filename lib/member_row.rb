@@ -38,11 +38,11 @@ class MemberRow < Scraped::HTML
   private
 
   def wanted_prefixes
-    %w(Prof.)
+    %w[Prof.]
   end
 
   def unwanted_prefixes
-    %w(Hon.)
+    %w[Hon.]
   end
 
   def prefixes
