@@ -1,0 +1,395 @@
+ <!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="csrf-token" content="nfacAoEtEv5AShAcPLrgf9AlZ8jaex2bdZ6o9OOC">
+	<title>Parliament of Tanzania</title>
+
+	<link rel="stylesheet" href="http://www.parliament.go.tz/site/css/jquery-ui.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="http://www.parliament.go.tz/site/css/bootstrap.min.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="http://www.parliament.go.tz/site/css/dataTables.bootstrap.css">
+	<link rel="stylesheet" href="http://www.parliament.go.tz/site/css/style.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="http://www.parliament.go.tz/site/font-awesome/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="http://www.parliament.go.tz/site/css/token-input.css" >
+
+	<script src="http://www.parliament.go.tz/site/js/jquery.js" type="text/javascript"></script>
+	<script src="http://www.parliament.go.tz/site/js/jquery.dataTables.min.js" type="text/javascript"></script>
+	<script src="http://www.parliament.go.tz/site/js/dataTables.bootstrap.min.js" type="text/javascript"></script>
+	<script src="http://www.parliament.go.tz/site/js/bootstrap.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		    $('#example').DataTable({
+		    	"ordering": false
+		    });
+
+		});
+    </script>
+
+	<script src="http://www.parliament.go.tz/site/js/js-image-slider.js" type="text/javascript"></script>
+	<script src="http://www.parliament.go.tz/site/js/prefixfree.min.js" type="text/javascript"></script>
+
+	<script src="http://www.parliament.go.tz/site/js/token-input.js" type="text/javascript"></script>
+	
+	<!-- By Dickson -->
+	<script src="http://www.parliament.go.tz/site/js/custom.js" type="text/javascript"></script>
+	
+ 	<script type="text/javascript">
+        $(document).ready(function() {            
+            var timer;                              
+            $("#slideshow > div:gt(0)").hide();            
+            $("#slideshow")
+                .mouseenter(function() {
+                    if (timer) { clearInterval(timer) }
+                })
+                .mouseleave(function() {
+                    timer = setInterval(function() {
+                        $("#slideshow > div:first")
+                            .fadeOut(2000)
+                            .next()
+                            .fadeIn(2000)
+                            .end()
+                            .appendTo("#slideshow");
+                    }, 20000);
+                })
+                .mouseleave();                                  
+        });
+
+    </script>
+
+	<!--[if lte IE 7]>
+		<link rel="stylesheet" href="css/ie.css" type="text/css" charset="utf-8" />	
+	<![endif]-->
+</script>
+</head>
+
+<body>
+
+	<div class="top_nav">
+		<div class="nav_wrap">
+
+			<form method="GET" action="http://www.parliament.go.tz/administrations/592" accept-charset="UTF-8" class="search">
+
+				<input class="keyw" type="search" size="25" name="q" value="" placeholder="Search">
+				<button type="submit">Search</button>
+
+			</form>
+
+			<nav class="site-navigation">		
+				<ul class="menu">
+					<li><a href="http://www.parliament.go.tz/contact">Contact Us</a></li>
+					<li><a href="http://www.parliament.go.tz/tender-list">Tenders</a></li>
+					<li><a href="http://www.parliament.go.tz/vacancy-list">Vacancy</a></li>
+					<li><a href="http://www.parliament.go.tz/glossary-list">Glossary</a></li>
+					<li><a href="http://www.parliament.go.tz/galleries">Photo Gallery</a></li>
+					<!-- <li><a href="http://parliament.go.tz/polis-api/polis/registrations/create">MP</a></li> -->
+						                  <li><a href="http://www.parliament.go.tz/language/sw">Kiswahili</a></li>
+	                					
+					
+				</ul>
+			</nav>		
+		</div>
+	</div>
+	<div class="header">
+		<div class="gov_logo"></div>
+		<div class="org_logo"></div>
+		<div class="org_name">
+			<p id="head">United Republic of Tanzania</p>
+			<p id="main">Parliament of Tanzania</p>
+			<!-- <p id="last">Good Roads for National Development</p> -->
+		</div>
+	</div>
+	<div class="menu_wrap">
+		<ul class="menuTemplate1 decor1_1" license="trlicense">
+			<li><a href="http://www.parliament.go.tz">Home</a></li>
+			<li><a href='#'>About Us <i class='fa fa-caret-down left'></i></a><div class='drop decor1_2'><div class='left'><div><a href= http://www.parliament.go.tz/pages/mandate> <i class='fa fa-angle-double-right right'></i> Mandate</a><br><a href= http://www.parliament.go.tz/pages/functions> <i class='fa fa-angle-double-right right'></i> Functions</a><br><a href= http://www.parliament.go.tz/pages/vision-and-mission> <i class='fa fa-angle-double-right right'></i> Vision and Mission</a><br><a href= http://www.parliament.go.tz/pages/structure> <i class='fa fa-angle-double-right right'></i> Structure</a><br><a href= http://www.parliament.go.tz/pages/office-of-the-clerk> <i class='fa fa-angle-double-right right'></i> Office of the Clerk</a><br><a href= http://www.parliament.go.tz/pages/administration> <i class='fa fa-angle-double-right right'></i> Administration</a><br><a href= http://www.parliament.go.tz/pages/history> <i class='fa fa-angle-double-right right'></i> History</a><br><a href= http://www.parliament.go.tz/pages/compositon> <i class='fa fa-angle-double-right right'></i> Compositon</a><br></div></div><div style='clear: both;'></div></div></li><li><a href='#'>Parliamentary Business <i class='fa fa-caret-down left'></i></a><div class='drop decor1_2'><div class='left'><div><a href= http://www.parliament.go.tz/acts-list> <i class='fa fa-angle-double-right right'></i> Acts</a><br><a href= http://www.parliament.go.tz/bills-list> <i class='fa fa-angle-double-right right'></i> Bills</a><br><a href= http://www.parliament.go.tz/hansards-list> <i class='fa fa-angle-double-right right'></i> Hansards</a><br><a href= http://www.parliament.go.tz/order-paper-list> <i class='fa fa-angle-double-right right'></i> Order Papers</a><br><a href= http://www.parliament.go.tz/resolutions-list> <i class='fa fa-angle-double-right right'></i> Resolutions</a><br><a href= http://www.parliament.go.tz/proceeding-list> <i class='fa fa-angle-double-right right'></i> Proceedings</a><br><a href= http://www.parliament.go.tz/statements-list> <i class='fa fa-angle-double-right right'></i> Minister's Statement</a><br><a href= http://www.parliament.go.tz/motion-list> <i class='fa fa-angle-double-right right'></i> Member's Private Motion</a><br><a href= http://www.parliament.go.tz/subsidiary-list> <i class='fa fa-angle-double-right right'></i> Subsidiary Legislation</a><br></div></div><div style='clear: both;'></div></div></li><li><a href='#'>Committee System <i class='fa fa-caret-down left'></i></a><div class='drop decor1_2'><div class='left'><div><a href= http://www.parliament.go.tz/committee-types-list> <i class='fa fa-angle-double-right right'></i> Committee Types</a><br><a href= http://www.parliament.go.tz/committee-composition-list> <i class='fa fa-angle-double-right right'></i> Committee Composition</a><br><a href= http://www.parliament.go.tz/committee-reports-list> <i class='fa fa-angle-double-right right'></i> Committee Reports</a><br></div></div><div style='clear: both;'></div></div></li><li><a href='#'>Members of Parliament <i class='fa fa-caret-down left'></i></a><div class='drop decor1_2'><div class='left'><div><a href= http://www.parliament.go.tz/leaders-list> <i class='fa fa-angle-double-right right'></i> Leadership</a><br><a href= http://www.parliament.go.tz/mps-list> <i class='fa fa-angle-double-right right'></i> List of Members A-Z</a><br><a href= http://www.parliament.go.tz/pages/overview> <i class='fa fa-angle-double-right right'></i> Overview</a><br><a href= http://www.parliament.go.tz/mps-dir> <i class='fa fa-angle-double-right right'></i> MP's Directory</a><br><a href= http://www.parliament.go.tz/statutes-list> <i class='fa fa-angle-double-right right'></i> A Collection of Statutes Relevant for Parliamentary Business</a><br></div></div><div style='clear: both;'></div></div></li><li><a href='#'>Publications <i class='fa fa-caret-down left'></i></a><div class='drop decor1_2'><div class='left'><div><a href= http://www.parliament.go.tz/budget-list> <i class='fa fa-angle-double-right right'></i> Budget</a><br><a href= http://www.parliament.go.tz/publication/facts> <i class='fa fa-angle-double-right right'></i> Fact Sheets</a><br><a href= http://www.parliament.go.tz/publication/journals> <i class='fa fa-angle-double-right right'></i> Constitution</a><br><a href= http://www.parliament.go.tz/publication/reports> <i class='fa fa-angle-double-right right'></i> Parliamentary Reports</a><br><a href= http://www.parliament.go.tz/publication/research> <i class='fa fa-angle-double-right right'></i> Research Papers</a><br><a href= http://www.parliament.go.tz/publication/orders> <i class='fa fa-angle-double-right right'></i> Standing Orders</a><br><a href= http://www.parliament.go.tz/publication/books> <i class='fa fa-angle-double-right right'></i> Books</a><br></div></div><div style='clear: both;'></div></div></li><li><a href='#'>Visiting & Tours <i class='fa fa-caret-down left'></i></a><div class='drop decor1_2'><div class='left'><div><a href= http://www.parliament.go.tz/pages/procedures-to-visit-the-parliament> <i class='fa fa-angle-double-right right'></i> Procedure to visit the Parliament</a><br><a href= http://www.parliament.go.tz/pages/do-s-and-don-ts> <i class='fa fa-angle-double-right right'></i> Do's and Don'ts</a><br><a href= http://www.parliament.go.tz/application-form> <i class='fa fa-angle-double-right right'></i> Application Form</a><br><a href= http://www.parliament.go.tz/remarks> <i class='fa fa-angle-double-right right'></i> Visitors' Remarks</a><br></div></div><div style='clear: both;'></div></div></li>
+
+		</ul>		
+	</div>
+<div class="in_body">
+	<div class="in_left">
+
+		  
+  <div class="breadcrumbs">
+    <ul>
+      <li class="size"><a href="http://www.parliament.go.tz"><i class="fa fa-home"></i></a></li>
+      <li><a href="#">Hon. Nuru Awadh Bafadhili</a></li>
+      <!-- <li class="lsize"><i class="fa fa-angle-right"></i></li>
+      <li><a href="#">Mandate</a></li> -->
+    </ul> 
+    <div class="in_print">
+      <span><a href="#"><i class="fa fa-envelope-o right"></i>Email to a friend</a></span>
+      <span><a href="javascript:PrintDiv(divToPrint);"><i class="fa fa-print right"></i>Print</a></span>
+    </div>          
+  </div>
+  <div class="body_info" id="divToPrint">
+    <h3><span>Profile</span></h3>
+
+      <div class="admin_img">
+                  <img src="http://www.parliament.go.tz/site/images/img.jpg">
+              </div>
+      
+      <p><h2>Hon. Nuru Awadh Bafadhili</h2></p>
+      <p><span class="item">Member Type : </span>Special Seats</p>
+      <p><span class="item">Constituent :</span> Special Seats</p>
+      <p><span class="item">Political Party :</span> CUF</p>
+      <p><span class="item">Phone :</span> +255718237250</p>
+      <p><span class="item">P.O Box :</span> P. O Box 1071, Tanga</p>
+      <p><span class="item">Email Address :</span> n.bafadhali@bunge.go.tz</p>
+      <p><span class="item">Date of Birth :</span> 1952-11-22</p>
+
+      <div class="profls"> <p><h1>Education History :</h1></p></div>
+
+      <table id="" class="table table-striped table-bordered new" cellspacing="0" width="100%">
+        <thead>
+          <tr>
+                <th scope="col">School Name/Location</th>
+                <th scope="col">Course/Degree/Award</th>
+                <th scope="col">From</th>
+                <th scope="col">To</th>
+                <th scope="col">Level</th>
+            </tr>
+        </thead>
+        <tbody>
+                          <tr class="odd">
+                  <td>None</td>
+                  <td width="25%">None</td>
+                  <td width="10%">1967</td>
+                  <td  width="10%">1968</td>
+                  <td>Secondary School</td>
+              </tr>
+                          <tr class="odd">
+                  <td>Tanga Girls School</td>
+                  <td width="25%">CPEE</td>
+                  <td width="10%">1960</td>
+                  <td  width="10%">1966</td>
+                  <td>Primary School</td>
+              </tr>
+                    </tbody>
+    </table>
+
+    <div class="profls"> <p><h1>Employment History :</h1></p></div>
+
+      <table id="" class="table table-striped table-bordered new" cellspacing="0" width="100%">
+        <thead>
+          <tr>
+                <th scope="col">Company/Institution</th>
+                <th scope="col">Position</th>
+                <th scope="col">From</th>
+                <th scope="col">To</th>
+            </tr>
+        </thead>
+        <tbody>
+                          <tr class="odd">
+                  <td>Ministry of Education</td>
+                  <td width="30%">Teacher</td>
+                  <td width="10%">1970</td>
+                  <td width="10%">2000</td>
+              </tr>
+                    </tbody>
+    </table>
+
+    <div class="profls"> <p><h1>Political Experience :</h1></p></div>
+
+      <table id="" class="table table-striped table-bordered new" cellspacing="0" width="100%">
+        <thead>
+          <tr>
+                <th scope="col">Political Party</th>
+                <th scope="col">Position</th>
+                <th scope="col">From</th>
+                <th scope="col">To</th>
+            </tr>
+        </thead>
+        <tbody>
+                          <tr class="odd">
+                  <td>Social Service</td>
+                  <td width="30%">Member</td>
+                  <td width="10%">2006</td>
+                  <td width="10%">2010</td>
+              </tr>
+                          <tr class="odd">
+                  <td>Parliament of Tanzania</td>
+                  <td width="30%">Member to the National Executive Council</td>
+                  <td width="10%">2005</td>
+                  <td width="10%">2010</td>
+              </tr>
+                    </tbody>
+    </table>    
+  
+  </div>
+
+		
+	</div>
+
+	<div class="in_right">
+		<div class="slide">
+				<div class="speaker">
+											<div class="pro_pic"><img src="http://www.parliament.go.tz/uploads/administrations/thumb/1456133578-ndugai1.jpg"></div>
+						<div class="pro_info">
+							<p class="name">Hon. Job Y. Ndugai</p>
+							<p class="place">Speaker of the National Assembly</p>
+							<p><a href="http://www.parliament.go.tz/legistrative_role/29"><i class="fa fa-angle-double-right right"></i>Legislative Role</a></p>
+							<p><a href="http://www.parliament.go.tz/profile/29"><i class="fa fa-angle-double-right right"></i>Profile</a></p>
+							<p><a href="http://www.parliament.go.tz/administration-questions/29"><i class="fa fa-angle-double-right right"></i>Ask the Speaker / Comments</a></p>
+						</div>
+									</div>
+
+				<div class="speaker">
+											<div class="pro_pic"><img src="http://www.parliament.go.tz/uploads/administrations/thumb/1507536680-KB Kagaigai.png"></div>
+						<div class="pro_info">
+							<p class="name">Mr. Stephen  Kagaigai</p>
+							<p class="place">Clerk of the National Assembly</p>
+							<p><a href="http://www.parliament.go.tz/legistrative_role/2"><i class="fa fa-angle-double-right right"></i>Legislative Role</a></p>
+							<p><a href="http://www.parliament.go.tz/profile/2"><i class="fa fa-angle-double-right right"></i>Profile</a></p>
+							<p><a href="http://www.parliament.go.tz/administration-questions/2"><i class="fa fa-angle-double-right right"></i>Ask the Clerk / Comments</a></p>
+						</div>
+									</div>
+		</div>
+		<div class="polis">					
+			<div class="tr_poli_in"><a href="http://parliament.go.tz/polis" target="blank"><img src="http://www.parliament.go.tz/site/images/polisin.png"></a></div>
+			<div class="tr_mail_in"><a href="http://mail.bunge.go.tz" target="blank"><img src="http://www.parliament.go.tz/site/images/webin.png"></a>	</div>				
+		</div>
+		<div class="mps mps_in">
+			<h4>Member of the Parliament</h4>
+			<div class="profs" id="slideshow">
+
+																						<div>
+								<div class="pro_pic">
+																			<img src="http://parliament.go.tz/polis/uploads/members/0.66358100 1486011969.png">
+																	</div>
+								<div class="pro_info">
+									<p class="name">Hon. Bupe Nelson Mwakang'ata</p>
+																			<p class="place">Special Seats (CCM)</p>
+									
+																		<p><a href="http://parliament.go.tz/polis/members/278"><i class="fa fa-angle-double-right right"></i>Questions / Answers(6 / 0)</a></p>
+																		
+																		<p><a href="http://parliament.go.tz/polis/members/278"><i class="fa fa-angle-double-right right"></i>Supplementary Questions / Answers (6 / 0)</a></p>
+									
+																		<p><a href="http://parliament.go.tz/polis/members/278/contributions"><i class="fa fa-angle-double-right right"></i>Contributions (4)</a></p>
+									
+									<p><a href="http://parliament.go.tz/polis/members/278"><i class="fa fa-angle-double-right right"></i>Profile</a></p>
+								</div>
+							</div>
+																								<div>
+								<div class="pro_pic">
+																			<img src="http://parliament.go.tz/polis/uploads/members/0.44930400 1485965103.png">
+																	</div>
+								<div class="pro_info">
+									<p class="name">Hon. Abdallah Dadi Chikota</p>
+																			<p class="place">Nanyamba (CCM)</p>
+									
+																		<p><a href="http://parliament.go.tz/polis/members/281"><i class="fa fa-angle-double-right right"></i>Questions / Answers(5 / 0)</a></p>
+																		
+																		<p><a href="http://parliament.go.tz/polis/members/281"><i class="fa fa-angle-double-right right"></i>Supplementary Questions / Answers (18 / 0)</a></p>
+									
+																		<p><a href="http://parliament.go.tz/polis/members/281/contributions"><i class="fa fa-angle-double-right right"></i>Contributions (20)</a></p>
+									
+									<p><a href="http://parliament.go.tz/polis/members/281"><i class="fa fa-angle-double-right right"></i>Profile</a></p>
+								</div>
+							</div>
+																								<div>
+								<div class="pro_pic">
+																			<img src="http://parliament.go.tz/polis/uploads/members/0.80307300 1485965277.png">
+																	</div>
+								<div class="pro_info">
+									<p class="name">Hon. Angeline Sylvester Lubala Mabula</p>
+																			<p class="place">Ilemela (CCM)</p>
+									
+																		<p><a href="http://parliament.go.tz/polis/members/293"><i class="fa fa-angle-double-right right"></i>Questions / Answers(0 / 37)</a></p>
+																		
+																		<p><a href="http://parliament.go.tz/polis/members/293"><i class="fa fa-angle-double-right right"></i>Supplementary Questions / Answers (0 / 68)</a></p>
+									
+																		<p><a href="http://parliament.go.tz/polis/members/293/contributions"><i class="fa fa-angle-double-right right"></i>Contributions (10)</a></p>
+									
+									<p><a href="http://parliament.go.tz/polis/members/293"><i class="fa fa-angle-double-right right"></i>Profile</a></p>
+								</div>
+							</div>
+																								<div>
+								<div class="pro_pic">
+																			<img src="http://parliament.go.tz/polis/uploads/members/0.46262700 1486014869.png">
+																	</div>
+								<div class="pro_info">
+									<p class="name">Hon. Lucy Fidelis Owenya</p>
+																			<p class="place">Special Seats (CHADEMA)</p>
+									
+																		<p><a href="http://parliament.go.tz/polis/members/359"><i class="fa fa-angle-double-right right"></i>Questions / Answers(3 / 0)</a></p>
+																		
+																		<p><a href="http://parliament.go.tz/polis/members/359"><i class="fa fa-angle-double-right right"></i>Supplementary Questions / Answers (5 / 0)</a></p>
+									
+																		<p><a href="http://parliament.go.tz/polis/members/359/contributions"><i class="fa fa-angle-double-right right"></i>Contributions (19)</a></p>
+									
+									<p><a href="http://parliament.go.tz/polis/members/359"><i class="fa fa-angle-double-right right"></i>Profile</a></p>
+								</div>
+							</div>
+																								<div>
+								<div class="pro_pic">
+																			<img src="http://www.parliament.go.tz/site/images/img.jpg">
+																	</div>
+								<div class="pro_info">
+									<p class="name">Hon. Shamsia Aziz Mtamba</p>
+																			<p class="place">Special Seats (CUF)</p>
+									
+																		
+									
+									
+									<p><a href="http://parliament.go.tz/polis/members/584"><i class="fa fa-angle-double-right right"></i>Profile</a></p>
+								</div>
+							</div>
+																		</div>	
+		</div>
+					<p id="all"><a href="http://www.parliament.go.tz/mps-list">View All MP's</a></p>
+			</div></div>
+
+
+
+<div class="footer">
+    <div class="foot_wrap">
+      <ul class="contacts">
+        <h3>Our Parliament</h3>
+                      <li><a href="http://www.parliament.go.tz/pages/history"><i class="fa fa-circle-o right"></i>Who we are</a></li>
+                      <li><a href="http://www.parliament.go.tz/pages/functions"><i class="fa fa-circle-o right"></i>What Parliament does</a></li>
+                      <li><a href="http://www.parliament.go.tz/pages/structure"><i class="fa fa-circle-o right"></i>Parliament Structure</a></li>
+                </ul>
+      <ul class="contacts">
+        <h3>Document</h3>
+                  <li><a href="http://www.parliament.go.tz/acts-list"><i class="fa fa-circle-o right"></i>Acts</a></li>
+                  <li><a href="http://www.parliament.go.tz/bills-list"><i class="fa fa-circle-o right"></i>Bills</a></li>
+                  <li><a href="http://www.parliament.go.tz/budget-list"><i class="fa fa-circle-o right"></i>Budget Speeches</a></li>
+                  <li><a href="http://www.parliament.go.tz/hansards-list"><i class="fa fa-circle-o right"></i>Hansard</a></li>
+              </ul>
+      <ul class="contacts">
+        <h3>Get Involved</h3>
+        <li><a href="https://twitter.com/bunge_tz" target="_blank"><i class="fa fa-circle-o right"></i>Twitter</a></li>
+        <li><a href="https://www.facebook.com/bungetz1/?ref=aymt_homepage_panel" target="_blank"><i class="fa fa-circle-o right"></i>Facebook</a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-circle-o right"></i>Instagram</a></li>
+        <li><a href="http://www.parliament.go.tz/application" ><i class="fa fa-circle-o right"></i>Visit Us</a></li>
+        <li><a href="http://www.parliament.go.tz/contact"><i class="fa fa-circle-o right"></i>Contact Us</a></li>
+      </ul>
+      <div class="newsletter">
+        <h3>Sign-up for Bunge Newsletter</h3>
+        <p>Subscribe and receive monthly updates via email.</p>
+        <div id="success_subscription">
+            <a href="http://www.parliament.go.tz/subscribers/create"> Subscribe <i class="fa fa-play right"></i></a>
+            <p><a href="http://www.parliament.go.tz/unsubscribe"> Unsubscribe <i class="fa fa-play right"></i></a></p>
+            <span class="footnote"> Copyright &copy; 2015. Bunge Website. All rights reserved</span>
+        </div>
+      </div>
+  <!-- /#footer -->
+  
+<script src="http://www.parliament.go.tz/site/js/jquery-ui.js" type="text/javascript"></script>
+<script src="http://www.parliament.go.tz/site/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+<script src="http://www.parliament.go.tz/site/js/bootstrap-multiselect.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function() {  
+      $('.multiselect').multiselect();
+      $('.datepicker').datepicker({
+      format: 'yyyy-mm-dd',
+      autoclose: 'true'
+      // startDate: '-3d'
+      });  
+    });
+</script>
+
+</body>
+</html>
