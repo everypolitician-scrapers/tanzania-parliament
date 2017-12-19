@@ -25,9 +25,6 @@ def scrape_term(url, term)
     ScraperWiki.save_sqlite(%i[id term], data)
     puts data.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h if ENV['MORPH_DEBUG']
   end
-
-  next_pg = page.next
-  scrape_term(next_pg, term) unless next_pg.to_s.empty?
 end
 
 url = 'http://www.parliament.go.tz/mps-list'
