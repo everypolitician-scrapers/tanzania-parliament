@@ -11,8 +11,4 @@ class MembersPage < Scraped::HTML
       fragment mem.css('td') => MemberRow
     end
   end
-
-  field :next do
-    noko.css('div#pagination').xpath('//a[text()=">"]/@href').text
-  end
 end
