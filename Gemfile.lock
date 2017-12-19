@@ -6,9 +6,10 @@ GIT
 
 GIT
   remote: https://github.com/everypolitician/scraped.git
-  revision: c458dd2601a7f1e9596c7c60cf375fee44c3604d
+  revision: 1eb50450da29ff6ec00cd99ac4bb109474147bce
+  branch: scraper-class
   specs:
-    scraped (0.6.1)
+    scraped (0.6.2)
       field_serializer (>= 0.3.0)
       nokogiri
       require_all
@@ -151,4 +152,4 @@ RUBY VERSION
    ruby 2.3.3p222
 
 BUNDLED WITH
-   1.14.6
+   1.16.0
