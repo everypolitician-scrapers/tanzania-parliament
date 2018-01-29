@@ -18,25 +18,24 @@ response:
     message: OK
   headers:
     Date:
-    - Thu, 25 Jan 2018 00:51:53 GMT
+    - Mon, 29 Jan 2018 04:24:15 GMT
     Server:
-    - Apache
-    X-Frame-Options:
-    - DENY
+    - Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips mod_fcgid/2.3.9 PHP/5.4.16 mod_python/3.5.0-
+      Python/2.7.5
+    X-Powered-By:
+    - PHP/5.4.16
     Cache-Control:
     - no-cache
     Set-Cookie:
-    - XSRF-TOKEN=eyJpdiI6ImFMVXZPR3lSTmpKKzRpOWVEZFBxdmc9PSIsInZhbHVlIjoiMmhGZUNQNUFIcDZTSlh4MGpobHFkaVNIUDBxVlwvSStucytOc3hXRm1SaUJNNit6eXRUVUVQZXRIZW5MRzdxeWpEUmZjVjF3N2FxUjBWRFg0YUJ3WkJ3PT0iLCJtYWMiOiJkZTQyOGFiMWY2YTgzMDJkOGNiYjdhZDcxZDBmODFlMTk3MmQyNzljYmQ4ZmEyM2ZmOTFlN2VkM2UzOThjMTQ5In0%3D;
-      expires=Thu, 25-Jan-2018 02:51:56 GMT; Max-Age=7200; path=/
-    - laravel_session=eyJpdiI6Iis3ekRuNmIrS2x1RWw1SlwvbFVPXC9Ydz09IiwidmFsdWUiOiJ0OFJOU2xBSUVjbTRkNyt3U2V1VUpNbHQxc1RkODBMZTFlNVJ5b1QwWmRua0xhSmc0ViszN1NzUE54c1JWMml1Z2g1MmxYMVRzaGtlRFpZbUljcmM5Zz09IiwibWFjIjoiMGRmMDUyNzZiMWQwM2E4YjA5OTQ2NmNlOTMzZjIyMGU1MWY1ODJlMDMzNDQ3NWMyZmRlNGJiOTA4YjAzNjFiNCJ9;
-      expires=Thu, 25-Jan-2018 02:51:56 GMT; Max-Age=7200; path=/; httponly
-    Connection:
-    - close
+    - XSRF-TOKEN=eyJpdiI6ImVtV2JTRFNobTNmMTc0MjdFK2E5T1E9PSIsInZhbHVlIjoiTGZcL2h2eGpMUXdEZjFaS2Q4QkpYMGRRb3ppWFFSVnpBTllsekVWVnM0YjdtVUdQbm1XaUpweXZ4bUdRemFZcnA0STc2VzhyZzVVV1pKZU0yUXFsZTlnPT0iLCJtYWMiOiIxYmQ2YTgzM2NmNjY2M2EwYTQ5NGU1Nzc4YjFjYTVlMWUwYjFmZWY2ZWYyOTgzZWE3Zjg1M2YzYzgwMDAyYjNkIn0%3D;
+      expires=Mon, 29-Jan-2018 06:24:18 GMT; path=/
+    - laravel_session=eyJpdiI6IjZ3bTV6bFFcL1gxTFpwMDhPU0kyN1NnPT0iLCJ2YWx1ZSI6IlwvQm9VVGJcL3Z3UE8rZnFFYVZzVm5uTVh3Vmk5KzlhRjJ4VUxSSnFsWjFZRkIrbTVpZXlFZ0xkVXlidm5VbTBlRFd5cGdJTVhEVzRneGRLNSt3VXVvN2c9PSIsIm1hYyI6IjVjMDg1MWM1NTUxZjM5ZTNlODUxMmRhYTMxM2M0NWNkNzg3MDhjMTc0ZmY0OTRmMTU5NjA5ZjBkNDhhY2I3ZDgifQ%3D%3D;
+      expires=Mon, 29-Jan-2018 06:24:18 GMT; path=/; httponly
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
-    - '23475'
+    - '23178'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 25 Jan 2018 00:50:59 GMT
+recorded_at: Mon, 29 Jan 2018 04:26:29 GMT
