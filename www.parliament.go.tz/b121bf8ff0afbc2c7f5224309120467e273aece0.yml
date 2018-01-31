@@ -18,25 +18,24 @@ response:
     message: OK
   headers:
     Date:
-    - Thu, 25 Jan 2018 02:32:02 GMT
+    - Wed, 31 Jan 2018 02:58:11 GMT
     Server:
-    - Apache
-    X-Frame-Options:
-    - DENY
+    - Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips mod_fcgid/2.3.9 PHP/5.4.16 mod_python/3.5.0-
+      Python/2.7.5
+    X-Powered-By:
+    - PHP/5.4.16
     Cache-Control:
     - no-cache
     Set-Cookie:
-    - XSRF-TOKEN=eyJpdiI6IkU4UmRERGxXTnFmblNqUnF4ejR1Y2c9PSIsInZhbHVlIjoiQTdvTkw2T0lwaVk1b0JJRURQVlRNMzBESFZzUHlsMURqek1tK0dEZStDY0NGeDJHSkE4V1JsN0RBVFJoaGxxU0RwNzZ4NWNMWTJSUlpGZnl4bkxpWkE9PSIsIm1hYyI6IjkwNzViMDQ4YzAxZmFhYTAyYTFiMjg5MWUyOWM1YTExNDBhYjJlNGZiN2IzOTE1YWQ1NWNmZWY5MWNjYjhlZjgifQ%3D%3D;
-      expires=Thu, 25-Jan-2018 04:32:05 GMT; Max-Age=7200; path=/
-    - laravel_session=eyJpdiI6ImR0TkRib1wvM0tYMERidGxRdjlNdGd3PT0iLCJ2YWx1ZSI6IjRKeWVJNEtZckJXV0VwVHdzeXB1cUxob0RWaWlJZzQydjFaZVNGZ1pUc2RaRXU3bE9nTjRWcm50RmVqRVRnQVFjbWR0bVhJdVBmOU1DRWJBQ2ZQMmlRPT0iLCJtYWMiOiJjNmJiYjE4ZWRjNTRjMTU3MjFkNDNkMTNjYWMxNzU0ZGQ5NWVjZDA3OWY0MDAwNmQ1NzE5OGU5NDNmYzdhN2IxIn0%3D;
-      expires=Thu, 25-Jan-2018 04:32:05 GMT; Max-Age=7200; path=/; httponly
-    Connection:
-    - close
+    - XSRF-TOKEN=eyJpdiI6IkFPWFk3SzNtcHpES0h5bmkrNHlYbkE9PSIsInZhbHVlIjoiRkY4TFpUeHdvWkNnR2tpNDh6UGxzaUNkXC8rZk9jWXNEc0VyVkZBRlllOE42SUwydmVhcVVReDNFcW5ST3E1TDJ3N3RaTkJhMldCWUpHWGVKc3FFcUV3PT0iLCJtYWMiOiJhMWRjNzgwMTRhYmZlNDkxMWYwZDdmNzdmZjljNzdlMDQ3YTg0NjMwMDEyYzIyOWMxNDUwYzQ0ZWU1MTAzZGU2In0%3D;
+      expires=Wed, 31-Jan-2018 04:58:14 GMT; path=/
+    - laravel_session=eyJpdiI6ImZvQ2RHcG93N3B6eHV4Q1ZKXC9mMDFRPT0iLCJ2YWx1ZSI6IjR0QlFHbUgyUjJCb2J0TzM0VGIxeDQ3MUN6b2FFeHlyb3J2TkhHSGFSNnFKOWxoTnExZ3MzaFN3bU5UZUdsVkVadzh3bnpCQWdTZHlEcnB6VFhpZktRPT0iLCJtYWMiOiI1MzA1MWU4YzZjMjBkYzcyNzcwYzRiODFkYTA1ZDhjNzYxZGQzMzc0Nzc0YzVkY2YyOTgzOTQ5NzkwYTI5NDYwIn0%3D;
+      expires=Wed, 31-Jan-2018 04:58:14 GMT; path=/; httponly
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
-    - '26342'
+    - '26471'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 25 Jan 2018 02:31:07 GMT
+recorded_at: Wed, 31 Jan 2018 03:00:23 GMT
