@@ -18,25 +18,24 @@ response:
     message: OK
   headers:
     Date:
-    - Thu, 25 Jan 2018 02:53:16 GMT
+    - Wed, 31 Jan 2018 03:24:40 GMT
     Server:
-    - Apache
-    X-Frame-Options:
-    - DENY
+    - Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips mod_fcgid/2.3.9 PHP/5.4.16 mod_python/3.5.0-
+      Python/2.7.5
+    X-Powered-By:
+    - PHP/5.4.16
     Cache-Control:
     - no-cache
     Set-Cookie:
-    - XSRF-TOKEN=eyJpdiI6IlBpN0RDN3JKOFwvRXdJaHBXZTZ4bUl3PT0iLCJ2YWx1ZSI6ImdVeFpMNVJ6UEQxWDhKM3FxNjJJM2hZMTRtdG1oXC8wdFAxQTRydlROMDVPTkFNUFJWd3FSSFwveDFYQW8xWlZSYlY3T2pERXNJQ3Ayd241SUR4cjV5d0E9PSIsIm1hYyI6ImE2NDMyM2QwYjY3ZDkyMDAzZmE0NDQ5Mjk4MmJiZTFmNzgyNDVhNjFlNzU4OGYzNDU5ZDg4MDk4MTIxYzA4NDcifQ%3D%3D;
-      expires=Thu, 25-Jan-2018 04:53:19 GMT; Max-Age=7200; path=/
-    - laravel_session=eyJpdiI6IlwvQWZUU0JzYkRyTkhQQ3FQUlwvMVBpZz09IiwidmFsdWUiOiJlb1plY0xLdGRydlhndWx5ODZFVFFkdTFTNVdlVzhsaG1WSFdZWDVPVXVwSUdydzMwTUQzd1lwM1V5djJkRmFxenlCQTNiS29OWXczSUJsMktcLzdQQmc9PSIsIm1hYyI6ImNhMWQxNzYyNmU1NWVkMjY3OGI4OTNhY2M5NGE1YWVjNWY0ZDJiYzA1MjkwZGZjZDk0YTkzNjFjOTM3MjUxNzYifQ%3D%3D;
-      expires=Thu, 25-Jan-2018 04:53:19 GMT; Max-Age=7200; path=/; httponly
-    Connection:
-    - close
+    - XSRF-TOKEN=eyJpdiI6InBmSGRsb1dcL0lXakFaQ05tY1wvXC9adlE9PSIsInZhbHVlIjoibjhOQUMrUm4yQ0t0dGlxN2wreHpjaEI3UEs4dE9OYXpGRWRnMUU5S3h0QlpTcGZqbDV4alVEdVBiUTNtSUtPSVJJVVVZYys5Y3FYRSttZlNTbEFiZ2c9PSIsIm1hYyI6IjlhMGJjZTczZmUxZTRlZjM3NzJjZjQ5Yzg2MDc3NjYyYjY5NGU4NmM0NzI3ZTFlZTkyZTI2OGRlMTA2ODVhMzgifQ%3D%3D;
+      expires=Wed, 31-Jan-2018 05:24:43 GMT; path=/
+    - laravel_session=eyJpdiI6InFaSDZUK3ZzN093bGltaGdtb2E1RVE9PSIsInZhbHVlIjoiUEpHQ3gwcFc1ZHBmM0JBYVhmNHRNMFlsak55ZmZ6TDlFNklnbXYwcEZLNFFYalJHRXRreEk0Z2VcL1ZOZjNMR21IMVRZZ0R5dER3YTNLTFRBVEZpaHhRPT0iLCJtYWMiOiIwZjljZDI0MzEzYmE3NmE5M2E2ZmEyOTk1NzE3Y2EzZWE0OTI3NjcxZDBmYzQ2NmVlYzYzNjE1NDAxMmUyNWVmIn0%3D;
+      expires=Wed, 31-Jan-2018 05:24:43 GMT; path=/; httponly
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
-    - '28864'
+    - '28738'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 25 Jan 2018 02:52:22 GMT
+recorded_at: Wed, 31 Jan 2018 03:26:52 GMT
