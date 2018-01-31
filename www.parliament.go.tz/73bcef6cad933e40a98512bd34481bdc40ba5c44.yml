@@ -18,25 +18,24 @@ response:
     message: OK
   headers:
     Date:
-    - Thu, 25 Jan 2018 03:49:34 GMT
+    - Wed, 31 Jan 2018 04:22:14 GMT
     Server:
-    - Apache
-    X-Frame-Options:
-    - DENY
+    - Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips mod_fcgid/2.3.9 PHP/5.4.16 mod_python/3.5.0-
+      Python/2.7.5
+    X-Powered-By:
+    - PHP/5.4.16
     Cache-Control:
     - no-cache
     Set-Cookie:
-    - XSRF-TOKEN=eyJpdiI6InpIZXhSUGg4Zk14TWNjckUrTGhPREE9PSIsInZhbHVlIjoiVTR0UGdcL0tcL3BCZjZWYW83WFJDUFJsZkpLXC93bktzSEx4ODRiWDVcL05QSFJaaVkzXC85dHJ5YWdXUlZ4dVwvRVlhTVlyK0V5WXREVEhjT2NicjlobFZ4SWc9PSIsIm1hYyI6IjFhODlkYWUzZjMwMTYzNTE3MmUzOTExYTI1MTM0ZGMwZTUxNjVlMzg4ZjI2Mzc4MjQzNDZiNTJjNDY5N2M4MDAifQ%3D%3D;
-      expires=Thu, 25-Jan-2018 05:49:37 GMT; Max-Age=7200; path=/
-    - laravel_session=eyJpdiI6InBDcjYzQVZrVGpSaEd0bkJEamtXTmc9PSIsInZhbHVlIjoiK0pOTTlCcitNMDFZQ0ZQajNaUG1GemM0VlwvZkpwUmxtdnlNVVFoMVhlbVVXYnQwakJZWXlkcnFpeXZ4akxiYWJcLzdxa21yVDBEYlNjdmJKNVFHZ0ZvQT09IiwibWFjIjoiZTFhY2U0N2NiZTAyNGVjYjBiM2FhZWU5Nzc3ZTI5NzlmZWVhMTFjYzJhODBhYmRhYzNkZThjZGNhNDFiZTMwNSJ9;
-      expires=Thu, 25-Jan-2018 05:49:37 GMT; Max-Age=7200; path=/; httponly
-    Connection:
-    - close
+    - XSRF-TOKEN=eyJpdiI6IjBxQzdNVkZ6bnJjQ215ZXFvNkdJaUE9PSIsInZhbHVlIjoiVkFTMTI0NHpnR2tpSGhKc1JcL2tjaSt6SXNlcHRMNWNmcFBpekVaZUxUc2NoRUtTNDVMXC9RcjF0M3ZvWU9sMGFyWWMrelpETnhGaE1FdjZcL2VXOVJaWmc9PSIsIm1hYyI6IjQ3MTA5N2EzY2M5MDYyYzVmYTg4NzUzOGEyYTRhODdlOGU1YzBjMjBmNWU3Y2Y5NjZlMTY2N2U2ODE5ZWJhYjYifQ%3D%3D;
+      expires=Wed, 31-Jan-2018 06:22:17 GMT; path=/
+    - laravel_session=eyJpdiI6InQ4SE1ocnJkQTJFTlEweGljQmhaWFE9PSIsInZhbHVlIjoiNlYzYnpwY0x4WjRBdTlnMnhEXC9kYmVzN0dqSk9QdzFidzF0OHFITVZXc1Z5XC9GQ1pQcHU2bk5DcUVTWEVkOVNKeGl2YTVKNHp2SW1STGR1VFVcL3BMWmc9PSIsIm1hYyI6IjkyYzJjMmJkOTM4MGE4ODRiMzc5NDVkOGJlYzEyNGQ0MzAxMDdiYmFjZjE0ZGQ1MjhmN2JkOWI3NWU0OWU4N2QifQ%3D%3D;
+      expires=Wed, 31-Jan-2018 06:22:17 GMT; path=/; httponly
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
-    - '25811'
+    - '25832'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 25 Jan 2018 03:48:40 GMT
+recorded_at: Wed, 31 Jan 2018 04:24:26 GMT
