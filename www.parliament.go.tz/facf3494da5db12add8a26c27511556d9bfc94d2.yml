@@ -18,25 +18,24 @@ response:
     message: OK
   headers:
     Date:
-    - Thu, 25 Jan 2018 02:54:42 GMT
+    - Wed, 31 Jan 2018 03:26:00 GMT
     Server:
-    - Apache
-    X-Frame-Options:
-    - DENY
+    - Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips mod_fcgid/2.3.9 PHP/5.4.16 mod_python/3.5.0-
+      Python/2.7.5
+    X-Powered-By:
+    - PHP/5.4.16
     Cache-Control:
     - no-cache
     Set-Cookie:
-    - XSRF-TOKEN=eyJpdiI6InRFTTdZRHdGYWt1SHNsbVZpNWw0Rmc9PSIsInZhbHVlIjoiNEU4S0ZYcVJoWHUzZnFhVVJVbWhvQjNqdHhOcW5NN2pqT1NTOE93a096SkcrYTVhcm5IbUhTSDVqN05Va3l1ZGl4RGRaaTZ6VkhpMkFkdXhyZElRT2c9PSIsIm1hYyI6ImQ4YzRkOGUwN2I1YTdkNGJiODMxMzU0MTYwMDI4ZjMzNTgyN2I3MjEzN2E4OGM5ZjViMzZjMDMxYTMzZjBkODYifQ%3D%3D;
-      expires=Thu, 25-Jan-2018 04:54:45 GMT; Max-Age=7200; path=/
-    - laravel_session=eyJpdiI6Imk3azJmblwvTGpTeERnNmM5ckRYOEtRPT0iLCJ2YWx1ZSI6ImNiOVdrell4OFdPRFNWQ1wvRU8wVnNvQmRHc2lnN3NcL3ZzWFZ4VWdpUnkxNG9yN05Cbnc3SUliWFVZK2pVNllqV3dLdVZENEpwaWtYTklTNVN4QVwvcUtBPT0iLCJtYWMiOiJlOTBhOTBjM2ZjMzQ3NGJmNTg0ZWJlYzY1ZmQ2YzIzZTIzZGE5NjMyMDM4YjhlMmI2YTBmZmJiODc2MTYwNWMzIn0%3D;
-      expires=Thu, 25-Jan-2018 04:54:45 GMT; Max-Age=7200; path=/; httponly
-    Connection:
-    - close
+    - XSRF-TOKEN=eyJpdiI6IkNSakQ0V0dKaDIwYU1uUlpFTEU3SXc9PSIsInZhbHVlIjoiYnVsRWNJNzkxSTF4QXZlN1Y2T09MUlQwTHJxMCtkTFY5RUZVSWF1NUZQS0oxOVBsT1pzOE5ZYmNDSXhTZFFCYkk3UFFGZUhnME12dk9Rb3Fzc1ZCUWc9PSIsIm1hYyI6ImQ2NjU4NzQzMjY2YzQ3ZWE0MjY0ZTFkYzNkNzFlMTY1YTA1NjhkMjIyMmRhYjg1NzgyNzBmNDFhNGNjNTlmZGYifQ%3D%3D;
+      expires=Wed, 31-Jan-2018 05:26:03 GMT; path=/
+    - laravel_session=eyJpdiI6InFKM0pXWGwxYmFVRGh6NXBOajBiZFE9PSIsInZhbHVlIjoiWU56bHN3TEROaVQ3T3M5bEF3bnJpSWdQWDFBMWpTeUlLVVVxbzhxZ3hNNDIyNjRIdVVLRzgyMGkwZWk5eTNKaStxbzgrVlZ1N2M3TkVhREdlV1pxMlE9PSIsIm1hYyI6IjY1NDc3MWI2NmM4MGMxMGQ1YTQxYjMyNzgxN2M0ZTRhM2JhOTYwYWRiMDliMTliZjEzMjg2ZDg1MTJjNzA0NjQifQ%3D%3D;
+      expires=Wed, 31-Jan-2018 05:26:03 GMT; path=/; httponly
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
-    - '25948'
+    - '26124'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 25 Jan 2018 02:53:47 GMT
+recorded_at: Wed, 31 Jan 2018 03:28:12 GMT
