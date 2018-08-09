@@ -18,24 +18,24 @@ response:
     message: OK
   headers:
     Date:
-    - Tue, 07 Aug 2018 07:34:49 GMT
+    - Thu, 09 Aug 2018 19:16:49 GMT
     Server:
-    - Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips mod_fcgid/2.3.9 PHP/5.4.16 mod_python/3.5.0-
+    - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 PHP/5.4.16 mod_python/3.5.0-
       Python/2.7.5
     X-Powered-By:
-    - PHP/5.4.16
+    - PHP/5.6.37
     Cache-Control:
     - no-cache
     Set-Cookie:
-    - XSRF-TOKEN=eyJpdiI6IkdoOW94NElHNWNOUXVcL1cwNEpRbm93PT0iLCJ2YWx1ZSI6IjlzeTFZQlFYbW5wbHhaeTZwdHJGUkR1TTNlSEIzWFMwMFl5enFGRTlQbElHRW9MYWNzM1dRdEhiVXhud29QcEVxcU1CMGxvTGo5YUk1QVVBTWl3TkJBPT0iLCJtYWMiOiJmMjcxY2JkZWZjNmM2YzI0ODYzYzEwYmIzMWUwYTFhYjVhMmQ1ZDE2M2M5NjZmYjg4ODBjY2QwOGYyMGM0YjZiIn0%3D;
-      expires=Tue, 07-Aug-2018 09:34:53 GMT; path=/
-    - laravel_session=eyJpdiI6InU4bzZnZFRmSllzODhReFd6UllPemc9PSIsInZhbHVlIjoiQVE1WXBWcmRcL2I1SFZXM1Q4WXBoYkV0aHU4WmxZaXdRUDZON1pURmtVak9tMjN0QWllb1JaVmEyUEZnTWp4NHcrVFl6d2dxQzhOZ1wvQnljQlpHOUhVUT09IiwibWFjIjoiYTg2ZDc3MTc5ODUyMjZkMDFkYmQ5ZmYwMTU5NDU1OWM0OWE0MDk1ODE4YWRkYTMxMzczYjRlMjEwMTJiNTM2NSJ9;
-      expires=Tue, 07-Aug-2018 09:34:53 GMT; path=/; httponly
+    - XSRF-TOKEN=eyJpdiI6IjdlcGZXVEFkZXZqNk16bHcxUjBIXC9RPT0iLCJ2YWx1ZSI6Im9MYmRRV3FmS1RzclFoYVgwd3QzcEpIZjYrS2ZhMDgzZjlVZkJpODdnWE4wR1BGaXNkY1FReFMxQzFHSnpIRTMzNWlmMjRuRXBiZFZkZEtra1VTSDRBPT0iLCJtYWMiOiJmZWJlYzMyYzFmYTExZjliMDA5ZDIyZjFmOWUzNWU1YzE3Mjg5NGIxYWFhMGI3NDM2Y2IyNzMxOTY2NWVhMDBmIn0%3D;
+      expires=Thu, 09-Aug-2018 21:16:49 GMT; Max-Age=7200; path=/
+    - laravel_session=eyJpdiI6InJJcjltUzVSTFl0ekJDcE1ScFVEUHc9PSIsInZhbHVlIjoiOEhaM0dVdWNLXC9GRnVhdW00NUVVK2FoU0QyK0tyXC9tWXp4NjBaKzFSNUZMZmFtZHBHbWxqS0gyZ3lhTFkycHdqWWRsVnhucDQ0SU1RVnJwVkpyT01kUT09IiwibWFjIjoiMTM5OWUyYzBiNjJmZjMzNzFmODFiOTVjNjI2MDQ3ZDlkZjdjYmUyZDg2NDg2MGIxMWQyNDZiM2Q3MjQ0NzAyNiJ9;
+      expires=Thu, 09-Aug-2018 21:16:49 GMT; Max-Age=7200; path=/; httponly
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
-    - '24280'
+    - '24017'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 07 Aug 2018 07:32:59 GMT
+recorded_at: Thu, 09 Aug 2018 15:17:21 GMT
