@@ -18,19 +18,19 @@ response:
     message: OK
   headers:
     Date:
-    - Thu, 06 Sep 2018 02:32:33 GMT
+    - Fri, 07 Sep 2018 18:12:02 GMT
     Server:
     - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 PHP/5.4.16 mod_python/3.5.0-
       Python/2.7.5
     X-Powered-By:
-    - PHP/5.6.37
+    - PHP/5.4.16
     Cache-Control:
     - no-cache
     Set-Cookie:
-    - XSRF-TOKEN=eyJpdiI6ImF3bzRGN2R2SWdFbTJXWFlCa3M1V1E9PSIsInZhbHVlIjoib0YwRE5YbmRPZk9HZXJYVEJPQzdIVUdXdzBSMTBqNVBkcTI4MzBPYkQ0MmRxbkRyUjNoRjRjM2lzak8xQTlIKzFmYThnWVRwTnlsXC9vSlVlZ1wvYWQxUT09IiwibWFjIjoiOTA4Y2YxYzM2ZGQ4N2MxNTc2M2U0NDAyMWQ0ZTkyYTg2MDY3MjFlZjMzYmVlMDBlZGY5YWY3ZWUxNjk2OGM1MiJ9;
-      expires=Thu, 06-Sep-2018 04:32:33 GMT; Max-Age=7200; path=/
-    - laravel_session=eyJpdiI6ImNucGdHMTdRTXZrTlRrS1UzNDBKMFE9PSIsInZhbHVlIjoibWxWUnNVeFwvV1ZSaDZQYzd4UWl2c0tYVkZcL0hRSUhvUVRCcEJ4SXNxeU9IY0s1aDdLUE13ZkF3akx5bGpUUkpPRm9TcHJvTnJnajdCSWVOeDdMbUZXZz09IiwibWFjIjoiOTI3Mzc0ZjJlNTEzYTgwMTJmNTU1Y2RkNjEyYmI5YTIxYTcxMDc0MTE0ODc5MzdjZTEzYzJkMzk2MjhlZTdlZiJ9;
-      expires=Thu, 06-Sep-2018 04:32:33 GMT; Max-Age=7200; path=/; httponly
+    - XSRF-TOKEN=eyJpdiI6ImF4anU2N3RrcG8wbFF4dGszYzR6clE9PSIsInZhbHVlIjoiXC9JOHM0SVFpc1dZRXo4N2tGdE5WelJaY3ZWbTRxdnpPNVRoMFwvUUFGVnQ1YXRmdndEU0FVWEthdXgwQU5BaTZta3dPcDFyWU5Vb0RJbW4ybEJNQ2hQdz09IiwibWFjIjoiMzFlMzYyMGU1M2JmZGRkMmM3MzM1MzhlMzQ5ZjVhNjYyMTRlOGY5NWE3ZWUyNjU4MjUwZmNiMWI1ZDFiNjVkZSJ9;
+      expires=Fri, 07-Sep-2018 20:12:07 GMT; path=/
+    - laravel_session=eyJpdiI6IjB4XC9jXC9cL3FWMkErY0RIa1UzcnZEMmc9PSIsInZhbHVlIjoiUHJcL0luc2pWdmJPOE1VTDNVZ3lMRUtOZUZPcDQxYUNybXE1eDdldmJWT2tSbVNoUm9OeVdjY01VTmVZYWV6b2hCRks3bEhaTFdLVER2RFlvVW95THZnPT0iLCJtYWMiOiI2YzEwYzViYWI0YTU0NzQ3Yjc2ZDY0ZWQ3OTgyYzQ5NDU1YTZiMjQyYzYwZjE1MmQ3Mjg0Y2YzNWI5M2I0NzNhIn0%3D;
+      expires=Fri, 07-Sep-2018 20:12:07 GMT; path=/; httponly
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
@@ -38,4 +38,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 06 Sep 2018 02:33:35 GMT
+recorded_at: Fri, 07 Sep 2018 18:13:08 GMT
