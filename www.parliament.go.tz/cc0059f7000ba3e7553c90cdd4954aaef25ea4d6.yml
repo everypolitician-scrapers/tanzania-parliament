@@ -18,19 +18,19 @@ response:
     message: OK
   headers:
     Date:
-    - Thu, 06 Sep 2018 02:31:41 GMT
+    - Fri, 07 Sep 2018 18:10:28 GMT
     Server:
     - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 PHP/5.4.16 mod_python/3.5.0-
       Python/2.7.5
     X-Powered-By:
-    - PHP/5.6.37
+    - PHP/5.4.16
     Cache-Control:
     - no-cache
     Set-Cookie:
-    - XSRF-TOKEN=eyJpdiI6Ill6cEo4Y01OR0xxQ0RcL1lsRHAwWkV3PT0iLCJ2YWx1ZSI6IkR5SXlwdmVUTDJOVzJtVnQ2MTBLRjJTbWVOWll1cTRtbmJuUXM0dzdYRjg4TmhTcXk3RVVVcVpHRUt3VVNYajJEQ1orbUsrVElcL2ZZKzlSd3h2ZDFyUT09IiwibWFjIjoiM2U1NjYyODBlYzkxYTE5YTFjZDcyOTI5ZjVhMDVjYTE4N2MyZmIwYjE3NzAwODc4YjI1ODRhYWZjM2M3Zjk0OCJ9;
-      expires=Thu, 06-Sep-2018 04:31:41 GMT; Max-Age=7200; path=/
-    - laravel_session=eyJpdiI6IkNmdjFcL1hcL2tFVGtqZHRwaDlZNER6Zz09IiwidmFsdWUiOiIrV0s4blwvdTJHQktzc2lUQ2xZbXNBbldLM3JQNkg4ZG14MGNrMjlmeGk0djRuTm9cLzBjaEJOM0hXM21YRmQ0Qm83cVJZTjV2SFQ1NDlDNW93enJWaGlRPT0iLCJtYWMiOiIwN2UxM2U3NWFmZDE4ZjQ2OWZlZWQ0Y2E1MzVmZWM0OTlhMDIwYWJkYzliY2E5NGExNzI0NjJjOGY3NTJhYzdkIn0%3D;
-      expires=Thu, 06-Sep-2018 04:31:41 GMT; Max-Age=7200; path=/; httponly
+    - XSRF-TOKEN=eyJpdiI6InpzQTYrUmo0RVRYOThNVGRSbk5xTGc9PSIsInZhbHVlIjoidW9TbU5RV2Y2WDFRS2ZWS0R4K0JvQjBnMzZCZEpGYUorQjRsUW5najE5YXlvUjM4M1pLS0lSbjlkak9oaGFrT0VKQnd4VkNJR2dQMXdpWnZydlNHU0E9PSIsIm1hYyI6ImU0NjM5YTAxNjc1NDBiYjE0MGNhNjA1Yjc3YjZmMzVkNjAwNTkyOGNlZWNmMzI2OWVjNmFjNDMwZjQyMDE0MWEifQ%3D%3D;
+      expires=Fri, 07-Sep-2018 20:10:32 GMT; path=/
+    - laravel_session=eyJpdiI6ImR1ZFVUSXZsdW4rN3VGQjhLU1Jha2c9PSIsInZhbHVlIjoiUSs2RVRWUXpGR3VydUdjTDBrNm1wbVRJcXc3WnRrZW94NzY4KzRRcXArbmpqRzhJeUdXR05CZEZtb3E2Y1UzNjJYYlZGdzdcL1ZTMkV6NUloYzl0SzJRPT0iLCJtYWMiOiI5MmY5Y2MzMzM0N2Y3YmRjMjM2MjlhNTY5NjA4OGJiZTdlMjczNTMyYzhiNjZjNTg3MzAxOWU1YTY2MGFhMjQ4In0%3D;
+      expires=Fri, 07-Sep-2018 20:10:32 GMT; path=/; httponly
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
@@ -38,4 +38,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 06 Sep 2018 02:32:42 GMT
+recorded_at: Fri, 07 Sep 2018 18:11:34 GMT
