@@ -38,7 +38,7 @@ class MemberRow < Scraped::HTML
   private
 
   def wanted_prefixes
-    %w[Prof. Eng.]
+    %w[Prof. Eng. Dr. Advocate]
   end
 
   def unwanted_prefixes
